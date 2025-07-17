@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Environments
+.env
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs/editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Data
+data/*
+data/*/
+
+# Models
+models/
+*.pkl
+*.joblib
+*.h5
+
+# Reports
+# reports/figures/
+*.pdf
+# *.png
+# *.jpg
+# *.jpeg
+# *.svg
+
+
+# Testing
+.cache/
+.pytest_cache/
+coverage.*
+htmlcov/
+
+
+#Random
+notes/
