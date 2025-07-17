@@ -274,7 +274,6 @@ def collect_gsoy_data():
     print(f"New stations downloaded successfully: {total_downloads}")
     print(f"Stations with permanent/unresolved errors: {error_count} (check '{ERROR_LOG}')")
     print(f"Raw data stored in: '{RAW_DATA_OUTPUT_DIR}'")
-    print("\nRemember to check the error log for stations that failed to download.")
 
 # --- Main execution block ---
 if __name__ == "__main__":
