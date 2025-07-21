@@ -1,6 +1,6 @@
 # Global Climate Risk Profiling (GCRP)
 
-This project analyzes global climate data to identify countries experiencing the most drastic changes in climate patterns—such as temperature and rainfall—over the periods **2000–2012** and **2013–2025**.
+This project analyzes global climate data to identify countries experiencing the most drastic changes in climate patterns—such as temperature, rainfall and many more.
 
 ---
 
