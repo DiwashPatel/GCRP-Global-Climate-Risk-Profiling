@@ -38,8 +38,8 @@ Thumbs.db
 # reports/figures/
 *.pdf
 # *.png
-# *.jpg
-# *.jpeg
+*.jpg
+*.jpeg
 # *.svg
 
 
