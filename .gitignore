@@ -25,12 +25,12 @@ Thumbs.db
 *.log
 
 # Data
-data/*
-data/*/
+# data/*
+# data/*/
 
 # Models
-models/
-*.pkl
+#models/
+# *.pkl
 *.joblib
 *.h5
 
