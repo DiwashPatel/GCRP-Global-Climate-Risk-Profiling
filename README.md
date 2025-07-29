@@ -9,7 +9,7 @@ This project analyzes global climate data to identify countries experiencing the
 This project uses climate data provided by the [National Centers for Environmental Information (NCEI), NOAA](https://www.ncei.noaa.gov/).
 
 **Data Source:**  
-[NCEI Climate Data Online (CDO) API](https://www.ncei.noaa.gov/access/services/data/v1)
+[NCEI Climate Data Online (CDO) API](https://www.ncdc.noaa.gov/cdo-web/search)
 
 **Cite as:**  
 Menne, Matthew J., Imke Durre, Bryant Korzeniewski, Shelley McNeill, Kristy Thomas, Xungang Yin, Steven Anthony, Ron Ray, Russell S. Vose, Byron E.Gleason, and Tamara G. Houston (2012): Global Historical Climatology Network - Daily (GHCN-Daily), Version 3. [indicate subset used]. NOAA National Climatic Data Center. doi:[10.7289/V5D21VHZ](https://doi.org/10.7289/V5D21VHZ) [access date].
@@ -36,14 +36,14 @@ Matthew J. Menne, Imke Durre, Russell S. Vose, Byron E. Gleason, and Tamara G. H
 
 ### 3. **Collecting New Data**
 - Data is collected from:  
-  [`https://www.ncei.noaa.gov/access/services/data/v1`](https://www.ncei.noaa.gov/access/services/data/v1)
+  [`https://www.ncdc.noaa.gov/cdo-web/search`](https://www.ncdc.noaa.gov/cdo-web/search)
 - **API Key Required:**  
   To collect new data, you must obtain an API key from the [NOAA website](https://www.ncdc.noaa.gov/cdo-web/token).
 - Place your API key in a `.env` file as described in the code.
 - Run the scripts in `src/data/` to fetch new data.
 
 ### 4. **Data & Parameters**
-- For detailed information about climate parameters, columns, and their meanings, please refer to the [NOAA documentation](https://www.ncei.noaa.gov/support/access-data-service-api-user-documentation).
+- For detailed information about climate parameters, columns, and their meanings, please refer to the [NOAA documentation](https://www.ncei.noaa.gov/support/access-data-service-api-user-documentation). For further details about the parameters, see http://www.ncei.noaa.gov/pub/data/cdo/documentation/GSOY_documentation.doc .
 
 ---
 
